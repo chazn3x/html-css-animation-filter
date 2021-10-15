@@ -127,3 +127,12 @@
     width: 60px;
     height: 20px;
 }
+.ex-12-top-white, .ex-12-bottom-white {
+    transition: left 2s, right 2s;
+}
+.ex-12-button:hover .ex-12-top-white{
+    left: 60%;
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    right: 60%;
+}

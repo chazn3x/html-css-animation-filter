@@ -88,6 +88,16 @@
 .ex-11-icon {
     font-size: 60px;
 }
+.ex-11-icon:hover {
+    animation: ex-11-animation 2s linear;
+}
+@keyframes ex-11-animation {
+    0% {transform: rotate(0deg)}
+    25% {transform: rotate(90deg)}
+    50% {transform: rotate(180deg)}
+    75% {transform: rotate(270deg)}
+    100% {transform: rotate(0deg);}
+}
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
